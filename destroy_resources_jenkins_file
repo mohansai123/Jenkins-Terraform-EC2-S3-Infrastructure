@@ -8,7 +8,7 @@ pipeline {
         TF_bucket = 'jenkins-pipeline-ec2'
         TF_VAR_key_name = 'public-cli-keypair'
         TF_VAR_instance_type = 't2.micro'
-        GITHUB_REPO_URL = 'https://github.com/pavankumarindian/Jenkins-Terraform-EC2-S3-Infrastructure.git'
+        GITHUB_REPO_URL = 'https://github.com/mohansai123/Jenkins-terraform-s3/tree/main'
     }
 
     stages {
