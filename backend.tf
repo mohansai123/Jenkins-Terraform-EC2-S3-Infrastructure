@@ -4,6 +4,6 @@ terraform {
     key            = "terraform.tfstate"
     region         = "ap-south-1"
     encrypt        = true
-    dynamodb_table = "jenkins-s3"
+    dynamodb_table = "project-1table"
   }
 }
