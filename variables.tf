@@ -50,5 +50,5 @@ variable "region" {
 
 variable "s3_bucket" {
   type    = string
-  default = "pavanssonixbucket1"
+  default = "project1-s3-bucket-1"
 }
