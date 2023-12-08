@@ -1,9 +1,9 @@
 terraform {
   backend "s3" {
-    bucket         = "pavanssonixbucket1"
+    bucket         = "project1-s3-bucket-1"
     key            = "terraform.tfstate"
     region         = "ap-south-1"
     encrypt        = true
-    dynamodb_table = "terraform-lock"
+    dynamodb_table = "project-1table"
   }
 }
