@@ -6,7 +6,7 @@ pipeline {
         AWS_SECRET_ACCESS_KEY = credentials('AWS_SECRET_ACCESS_KEY')
         TF_region = 'ap-south-1'
         TF_bucket = 'project1-s3-bucket-1'
-        TF_VAR_key_name = 'public-cli-keypair'
+        TF_VAR_key_name = 'terraform.tfstate'
         TF_VAR_instance_type = 't2.micro'
         GITHUB_REPO_URL = 'https://github.com/mohansai123/Jenkins-terraform-s3-ec2-.git'
     }
