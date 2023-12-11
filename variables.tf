@@ -1,6 +1,6 @@
 variable "ami" {
   description = "EC2 instance AMI ID"
-  default     = "ami-05c0f5389589545b7"
+  default     = "ami-02a2af70a66af6dfb"
 }
 
 variable "instance_type" {
@@ -16,12 +16,12 @@ variable "availability_zone" {
 
 variable "iam_instance_profile" {
   description = "EC2 instance IAM instance profile name"
-  default     = "pavan"
+  default     = "github-ec2 "
 }
 
 variable "key_name" {
   description = "EC2 instance key pair name"
-  default     = "demo-key"
+  default     = "public-cli-keypair"
 }
 
 variable "security_groups" {
@@ -32,7 +32,7 @@ variable "security_groups" {
 
 variable "subnet_id" {
   description = "The subnet ID for the EC2 instance"
-  default     = "subnet-0e41453c9b1028803"  # Update with a valid subnet ID
+  default     = "subnet-0b4304641787d445a"  # Update with a valid subnet ID
 }
 
 variable "tags" {
@@ -50,5 +50,5 @@ variable "region" {
 
 variable "s3_bucket" {
   type    = string
-  default = "pavanssonixbucket1"
+  default = "jenkins-s3-dynamo-bucket"
 }
