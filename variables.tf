@@ -16,7 +16,7 @@ variable "availability_zone" {
 
 variable "iam_instance_profile" {
   description = "EC2 instance IAM instance profile name"
-  default     = "github-ec2 "
+  default     = "ec2-permissons"
 }
 
 variable "key_name" {
